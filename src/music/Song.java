@@ -2,9 +2,15 @@ package music;
 
 public class Song {
 	
+	private static String definition;
+	
 	private String title;
 	private Musician author;
 	private int year;
+	
+	static {
+		definition = "A beautiful piece of music.";
+	}
 	
 	public Song(String title, Musician author, int year) {
 		super();
@@ -15,6 +21,10 @@ public class Song {
 	
 	public Song() {
 		super();
+	}
+	
+	public static void showDefinition() {
+		System.out.println(definition);
 	}
 	
 	public void play() {
@@ -53,6 +63,14 @@ public class Song {
 
 	public void setYear(int year) {
 		this.year = year;
+	}
+
+	public static String getDefinition() {
+		return definition;
+	}
+
+	public static void setDefinition(String definition) {
+		Song.definition = definition;
 	}
 	
 	

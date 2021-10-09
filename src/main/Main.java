@@ -11,8 +11,15 @@ public class Main {
 		
 //		t.testPrintln();
 //		t.testScanner();
-		t.testMusician();
+//		t.testMusician();
 //		t.testSong();
+//		t.testStatic();
+//		t.testArrays();
+//		t.testLoops();
+//		t.testBreakAndContinue();
+//		t.testArraysOfObjects();
+//		t.testSwitch();
+		t.testIntegerAndDouble();
 	}
 
 }
